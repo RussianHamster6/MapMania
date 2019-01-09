@@ -27,7 +27,7 @@ public class UIController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		returned = GetComponentsInChildren<Text>();
-        Score = 0;
+        Score = 0;  
 
         while (!flag && i <= returned.Length)
         {
